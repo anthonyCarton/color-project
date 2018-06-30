@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>College of Design: University of Minnesota</title>
+
+<?php include("lib/inc/htmlhead.php"); ?> 
+
+<script type="text/javascript" src="../bibliography/inc/lib/js/index_jq.js"></script>							<!-- local  -->
+
+</head>
+
+<body>
+	<div class="wrap">
+   		<div class="wrapperHead black">
+            <div class="wrapperUMNhead"> 						
+                <?php include("lib/inc/designheader.php"); ?> 		
+            </div>
+             <?php include("lib/inc/designtitle.php"); ?> 		
+        </div>
+        <?php include("lib/inc/designnav.php"); ?> 					
+        <div class="wrapperStage">
+            <div class="wrapperStageInner">
+                <div id="stage">
+                    <div id="stagePane1"><?php include("lib/inc/designstage01.php"); ?></div>		<!-- seeds pane 1 -->
+                    <div id="stagePane2"><?php include("lib/inc/designstage02.php"); ?></div>		<!-- seeds pane 2 -->
+                    <div id="stagePane3"><?php include("lib/inc/designstage03.php"); ?></div>		<!-- seeds pane 3 -->
+                    <div id="stagePane4"><?php include("lib/inc/designstage04.php"); ?></div>		<!-- seeds pane 4 -->
+                    <div id="stagePane5"><?php include("lib/inc/designstage05.php"); ?></div>		<!-- seeds pane 5 -->
+                    
+                    <div id="stageNav">
+                        <ul>
+                            <li class="features" onClick="_gaq.push(['_trackEvent', 'Index Interactions', 'Showcase Links', 'Features']);"></li>
+                            <li class="stories" onClick="_gaq.push(['_trackEvent', 'Index Interactions', 'Showcase Links', 'Student Stories']);"></li>
+                            <li class="exhibitions" onClick="_gaq.push(['_trackEvent', 'Index Interactions', 'Showcase Links', 'Exhibitions']);"></li>
+                            <li class="gallery" onClick="_gaq.push(['_trackEvent', 'Index Interactions', 'Showcase Links', 'Gallery']);"></li>
+                            <li class="initiatives" onClick="_gaq.push(['_trackEvent', 'Index Interactions', 'Showcase Links', 'Initiatives']);"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapperBody">
+            <div class="wrapperBodyInner">
+                <div class="grid_08">
+					<h2>D@MN</h2>
+                    <?php include_once($_SERVER['DOCUMENT_ROOT'].'/rss_news.php');?> 
+                </div>
+                <div class="grid_04">
+                    <h2>Events</h2>
+                    <?php include_once($_SERVER['DOCUMENT_ROOT'].'/rss_events.php');?>  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="foot">
+        <?php include("lib/inc/designsitemap.php"); ?> 	<!-- seeds CDES sitemap -->	
+        
+        <div class="wrapperFoot black">
+            <div class="wrapperFootInner black">
+                <?php include("lib/inc/designfooter.php"); ?> 	<!-- seeds U of M footer -->	
+                <?php include("lib/inc/analytics.php"); ?> 	<!-- analytics -->	
+            </div>
+        </div>
+    </div>
+</body>
+</html>

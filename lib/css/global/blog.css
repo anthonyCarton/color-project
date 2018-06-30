@@ -1,0 +1,435 @@
+/* CDES Root Page CSS File */
+/* Developed by Paul Jarvis for the College of Design */
+/* University of Minnesota, 2011 */
+
+/* fonts */
+
+@font-face {
+	 font-family: 'ProximaNovaRegular';
+	 src: url('Proxima_Nova_Reg-webfont.eot');
+	 src: local('☺'),  url('http://design.umn.edu/lib/fonts/proximanova_regular_macroman/Proxima_Nova_Reg-webfont.woff') format('woff'),  url('http://design.umn.edu/lib/fonts/proximanova_regular_macroman/Proxima_Nova_Reg-webfont.ttf') format('truetype'),  url('http://design.umn.edu/lib/fonts/proximanova_regular_macroman/Proxima_Nova_Reg-webfont.svg#webfontL4J9cgkR') format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+
+@font-face {
+	 font-family: 'ProximaNovaBold';
+	 src: url('Proxima_Nova_Bold-webfont.eot');
+	 src: local('☺'),  url('http://design.umn.edu/lib/fonts/proximanova_bold_macroman/Proxima_Nova_Bold-webfont.woff') format('woff'),  url('http://design.umn.edu/lib/fonts/proximanova_bold_macroman/Proxima_Nova_Bold-webfont.ttf') format('truetype'),  url('http://design.umn.edu/lib/fonts/proximanova_bold_macroman/Proxima_Nova_Reg-webfont.svg#webfontL4J9cgkR') format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+}
+
+
+/* common */
+
+html { height: 100%; }
+body { height: 100%; margin: 0; background: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; }
+
+h1 { color: #000; font: normal 24pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 12px 0; }  /* Page Titles */
+h2 { color: #d80b0b; font: normal 18pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 12px 0; } /* Section Titles */
+h3 { color: #000; font: normal 14pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 0; }	/* Article Titles */
+h4 { color: #000; font: bold 11pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 12px 0; }  /* Alternate Titles (with links option) */
+
+p { font-size: 10pt; font-family: Arial, Helvetica, sans-serif; margin-bottom: 12px; }
+/* span { color: #7a7a7a; font: normal 8pt/16pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; } */
+
+.wrapperBody ul { font-size: 10pt; font-family: Arial, Helvetica, sans-serif; list-style: none; }
+.wrapperBody li { margin-bottom: 3px; margin-left: -20px; }
+
+a:link { color: #940010; text-decoration: none; }
+a:visited { color: #940010; text-decoration: none; }
+a:hover { color: #940010; text-decoration: underline; }
+
+h4 a:link { color: #000; text-decoration: none; }
+h4 a:visited { color: #000; text-decoration: none; }
+h4 a:hover { color: #940010; text-decoration: none; }
+
+.divider { border-bottom: solid 1px #999; padding-bottom: 24px; }
+.divider2 { border-bottom: dotted 1px #999; padding-bottom: 10px; }
+.indent { margin-left: 24px; margin-bottom: 10pt; list-style: circle; }
+
+.button { padding: 5px 10px; background-color: #7a7a7a; font-size: 9pt; -moz-border-radius: 4px; border-radius: 4px; }
+a.button:link { color: #fff; text-decoration: none }
+a.button:visited { color: #fff; text-decoration: none }
+a.button:hover { color: #fff; text-decoration: underline; }
+
+
+.centered { margin: auto; }
+
+/* colors */
+
+.color1 { color: #940010; }
+.color2 { color: #7a7a7a; }
+
+/* blog */
+
+.archives { color: #fff; width: 100%; background-color: #7a7a7a; text-align: center; padding: 10px 0; font-size: 9pt; font-weight: bold; }
+.archives a { color: #fff; text-decoration: none; }
+.archives a:hover { color: #fff; text-decoration: underline; }
+.commentForm { font-size: 10pt; }
+.commentLine { margin-bottom: 6px; }
+
+/* wrapper classes */
+
+.wrap { min-height: 100%; }
+.foot { margin-top: -60px; height: 101px; }
+.wrapperHead { background: #000; width: 100%; }
+.wrapperNav  { background: #000; width: 100%; height: 24px; z-index: 999; }
+.wrapperStage { background: #fff; width: 100%; background: url(http://design.umn.edu/images/global/images/bg.png) no-repeat center; margin: auto; }
+.wrapperBody { background: #fff; width: 100%;  padding-bottom: 1px; margin-bottom: 60px; } /* padding-bottom 1px important */
+.wrapperSitemap1 { background: #000; width: 100%; height: 20px; position: relative; }
+.wrapperSitemap2 { background: #000; width: 100%; height: 20px; position: absolute; top: 0px; overflow: hidden; }
+.wrapperFoot { background: #000; width: 100%; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 70%; }
+
+.wrapperUMNhead { background: #000 url(http://design.umn.edu/images/global/bg_head_oflow.png) repeat-x 0 0; width: 100%; }
+.wrapperNavInner { margin: auto; width: 960px; height: 24px; position: relative; padding: 0; }
+.wrapperStageInner { margin: auto; width: 960px; height: 421px; position: relative; overflow: hidden; }  /* height 491 w/ desc */
+.wrapperBodyInner { margin: auto; width: 960px; background: #fff; overflow: auto; margin-bottom: 40px; }
+.wrapperFootInner { margin: auto; width: 960px; padding: 5px; }
+
+.wrapperFootWht { background: #fff; width: 100%; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 70%; color: #000; }
+.wrapperSitemapWht1 { background: #fff; width: 100%; height: 20px; position: relative; }
+.wrapperSitemapWht2 { background: #fff; width: 100%; height: 20px; position: absolute; top: 0px; overflow: hidden; -moz-box-shadow: 0 -5px 5px #eee; }
+.wrapperFootWhtInner { margin: auto; width: 960px; padding: 5px; }
+
+/* header */
+
+#colorBar { position: relative; margin: auto; background: url(http://design.umn.edu/images/global/head_colorbar.gif) repeat-x center center; width: 100%; height: 4px; }
+
+#titleBar { margin: auto; width: 960px; position: relative; }
+#titleBar img { border: none; z-index: -1; }
+
+
+/* navigation */
+
+#topnav { font-family: 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 0; font-size: 11pt; }
+#topnav ul { margin: 0; padding: 0; float: left; }
+#topnav ul li { list-style: none; text-transform: uppercase; font-size: 75%; position: relative; float: left; width: 110px; height: 18px; text-align: center; padding-top: 6px; }
+#topnav ul li a { color: #fff; text-decoration: none; }
+#topnav ul li a:hover { color: #ffcc33; }
+
+#topnav li .sub {
+	clear: both;
+	float: left;
+	display: none;
+	position: absolute;
+	z-index: 3;
+	top: 24px; 
+	padding: 12px 24px;
+	-moz-box-shadow: 0 5px 8px #111;
+	background: #444 url(http://design.umn.edu/images/global/images/nav_grad.png) repeat-x top left;
+}
+
+#topnav li .sub ul { list-style: none;	width: 180px; float: left; padding: 10px; }
+#topnav li .sub ul li { width: 100%; height: auto; font-size: 9pt; margin: 3px 0; padding: 0; text-align: left; text-transform: none; }
+#topnav li .sub ul li:hover { background-color: transparent; } /* reset hover state */
+
+#topnav li .sub h1 { margin: 0; padding: 5px 0 8px 0; color: #fff; font-size: 8pt; font-weight: normal; text-transform: uppercase; }
+#topnav li .sub h2 { margin: 0; padding: 0; color: #fff; font-size: 10pt; font-weight: normal; }
+#topnav li .sub a { text-decoration: none; color: #ccc; padding: 0; }
+#topnav li .sub a:hover { text-decoration: none; color: #fff; }
+
+/* social media bar */
+
+#socialBar { position: absolute; top: 50%; right: 5px; height: 30px; margin-top: -16px; }
+#facebook { height: 30px; width: 30px; background: url(http://design.umn.edu/images/global/social_fb.png) no-repeat 0 0; position: absolute; right: 120px; }
+#facebook:hover { background-position: -30px 0; }
+#twitter { height: 30px; width: 30px; background: url(http://design.umn.edu/images/global/social_tw.png) no-repeat 0 0; position: absolute; right: 80px; }
+#twitter:hover { background-position: -30px 0; }
+#linkedin { height: 30px; width: 30px; background: url(http://design.umn.edu/images/global/social_in.png) no-repeat 0 0; position: absolute; right: 40px; }
+#linkedin:hover { background-position: -30px 0; }
+#youtube { height: 30px; width: 30px; background: url(http://design.umn.edu/images/global/social_yt.png) no-repeat 0 0; position: absolute; right: 0px; }
+#youtube:hover { background-position: -30px 0; }
+
+
+/* Stage Area */
+
+#stage { 
+	height: 421px;  /* 491 with description */
+	width: 960px; 
+	background: #000; 
+	overflow: hidden;
+	position: relative;
+}
+
+#stagePane2, #stagePane3, #stagePane4, #stagePane5 {		/* sets stage panes as hidden */
+	height: 360px;
+	width: 960px;
+	position: absolute;
+	display: none;
+}
+
+#stagePane1 {												/* sets pane 1 as the displayed pane on load */
+	height: 360px;
+	width: 960px;
+	position: absolute;
+}
+
+#stageDesc {
+	height: 70px;
+	width: 960px;
+	background: #313131;
+	position: absolute;
+	bottom: 0px;
+	font-family: 'ProximaNovaRegular', Arial, Helvetica, sans-serif; 
+}
+
+#stageDesc h1 { 
+	margin: 10px 0 0 20px; 
+	color: #fc3; 
+	font-size: 24pt; 
+	font-weight: normal; 
+}
+
+#stageDesc span {
+	width: 640px;
+	text-align: right;
+	position: absolute;
+	right: 0px; 
+	top: 0px;
+	margin: 15px 30px 0 0;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #fff;
+}
+
+#stageNav {
+	height: 61px;
+	width: 960px;
+	background: #000;
+	position: absolute;
+	bottom: 0;
+	-moz-box-shadow: 0 0 12px 3px #111; 
+}
+
+#stageNav ul { margin:0; padding:0; margin-top: -9px; position: absolute; left: 220px; }
+#stageNav li {
+	height: 70px;
+	width: 100px;
+	margin: 0;
+	display: block;
+	list-style: none;
+	float: left;
+	cursor: pointer;
+}
+
+#stageNav .features { background: url(../../images/stagenav_features.png) no-repeat 0 0; background-position: -100px 0; }
+#stageNav .stories { background: url(../../images/stagenav_stories.png) no-repeat 0 0; background-position: -100px 0; }
+#stageNav .exhibitions { background: url(../../images/stagenav_exhibitions.png) no-repeat 0 0; background-position: -100px 0; }
+#stageNav .gallery { background: url(../../images/stagenav_gallery.png) no-repeat 0 0; background-position: -100px 0; }
+#stageNav .initiatives { background: url(../../images/stagenav_initiatives.png) no-repeat 0 0; background-position: -100px 0; }
+
+#stageNav ul li:hover { background-position: -200px 0; }
+
+#stageNav ul li.active { background-position: 0 0; cursor: default; }
+
+
+/* Stage Content Elements */
+
+#stage #initLink1 { height: 90px; width: 960px; background: url(../../images/features/desHealth.png) no-repeat 0 0; }
+#stage #initLink2 { height: 90px; width: 960px; background: url(../../images/features/desSustain.png) no-repeat 0 0; }
+#stage #initLink3 { height: 90px; width: 960px; background: url(../../images/features/desEcon.png) no-repeat 0 0; }
+#stage #initLink4 { height: 90px; width: 960px; background: url(../../images/features/desAll.png) no-repeat 0 0; }
+
+#stage #initLink1:hover, #stage #initLink2:hover, #stage #initLink3:hover, #stage #initLink4:hover { background-position: 0 -90px; }
+
+#stage #summary h1 { color: #fc3; font: normal 22pt 'ProximaNovaBold', Arial, Helvetica, sans-serif; margin: 30px; }
+#stage #summary h2 { color: #fff; font: normal 18pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 0 30px 0 30px; }
+#stage #summary p { color: #fff; font: normal 14pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 30px 30px 0 30px; }
+#stage .link { position: absolute; bottom: 30px; right: 30px; }
+a img { border: none; }
+
+/* Body content */
+
+/* Site index */
+.date { font: normal 8pt/16pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 0; } /* date */
+.title { color: #000; font: normal 12pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin-bottom: 24px; } /* title */
+.title2 { color: #000; font: normal 10pt Arial, Helvetica, sans-serif; margin-bottom: 10px; } /* small */
+.title a, .title2 a { color: #000; text-decoration: none; } /* link styles */
+.title a:hover, .title2 a:hover { color: #940010; text-decoration: none; } /* hover styles*/
+
+#more { color: #7a7a7a; font: normal 10pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin-left: 30px; display: inline; }
+#more:hover { color: #333; text-decoration: none; }
+
+/* Academics */
+#programs { width: 960px; margin: auto; }
+#progList { height: 90px; width: 110px; margin: 14px 4px 14px 4px; display: inline; float: left; border: solid 1px #888; list-style: none; }
+
+#programs li { margin: 0; }
+
+.prog_01 { background: url(/images/prog_apparel.png) no-repeat 0 0; }
+.prog_02 { background: url(/images/prog_arch.png) no-repeat 0 0; }
+.prog_03 { background: url(/images/prog_gdes.png) no-repeat 0 0; }
+.prog_04 { background: url(/images/prog_housing.png) no-repeat 0 0; }
+.prog_05 { background: url(/images/prog_intdes.png) no-repeat 0 0; }
+.prog_06 { background: url(/images/prog_larch.png) no-repeat 0 0; }
+.prog_07 { background: url(/images/prog_pdes.png) no-repeat 0 0; }
+.prog_08 { background: url(/images/prog_retail.png) no-repeat 0 0; }
+
+#progList:hover { background-position: -110px 0; }
+/*.programs li img { height: 100px; width: 110px; margin-bottom: 5px; } */
+
+/* Students */
+.students { margin-bottom: 20px; }
+
+/* Site Map */
+
+#sitemap {
+	margin: auto;
+	background-color: #000;
+	width: 960px;
+	height: 20px;
+	position: relative;
+}
+
+#sitemap .trigger {
+	padding-top: 6px;
+	font: normal 9pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif;
+	margin: auto;
+	height: 20px;
+	width: 80px;
+	cursor: pointer;
+	font-size: 8pt; 
+	color: #fff;
+	text-align: center;
+}
+
+#sitemap .trigger:hover { color: #fc3; }
+
+#sitemapList { 
+	position: relative;
+	list-style: none; 
+	color: #fff; 
+	font: normal 8pt Arial, Helvetica, sans-serif; 
+	margin-top: -14px;
+	padding: 24px;
+	height: 220px;
+	width: 240px;
+	float: left;
+}
+
+#sitemapList a { color: #fff; text-decoration: none; }
+#sitemapList a:hover { color: #fc3 }
+
+#sitemapList li {
+	margin-bottom: 14px;
+}
+
+#sitemapRight {
+	position: absolute;
+	right: 0px;
+	color: #fff;
+	width: 240px;
+	height: 220px;
+	padding-right: 24px;
+	padding-top: 7px;
+	font: normal 8pt Arial, Helvetica, sans-serif; 
+	text-align: right;
+}
+
+/* 960 grid width classes */
+
+.grid_03 { width: 200px; display: inline; float: left; padding: 20px; }
+.grid_04 { width: 280px; display: inline; float: left; padding: 20px; }
+.grid_05 { width: 360px; display: inline; float: left; padding: 20px; }
+.grid_06 { width: 440px; display: inline; float: left; padding: 20px; }
+.grid_08 { width: 600px; display: inline; float: left; padding: 20px; }
+.grid_09 { width: 680px; display: inline; float: left; padding: 20px; }
+
+/* page headers */
+
+#articleHeader {	
+	width: 960px;
+	height: 200px;
+	position: relative;
+	/* margin-bottom: 24px; */
+	overflow: hidden;
+}
+
+#articleTitle {
+	width: 960px;
+	height: 50px;
+	position: absolute;	
+	bottom: 0px;
+	background-color: #000;
+}
+
+#articleTitle h1 {
+	color: #fff; 
+	font: normal 24pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; 
+	padding: 7px 0 7px 20px;
+}
+
+/* float clear */
+
+.clear {
+   clear: both;
+} 
+
+/* float classes */
+
+.left { float: left; }
+.right { float: right; }
+
+ol {list-style-type:none;margin:0 10px 10px 10px;}
+
+li.list1 {list-style-type: disc; color:black;margin-left:17px;} 
+
+
+/* Current U of M header and footer [as of 7/1/2011] with search bar and horizontal campus links */
+
+/* ------- U of M Header -------- */
+
+#header{ width: 960px; margin: auto; font-family:Arial, Helvetica, sans-serif;line-height:18px; color:#fff; }
+#header ul, #header li, #header p, #header div{font-size:11px;}
+
+#skipLinks{ position:absolute; left:-9999px } /* Hide the Skip links*/
+
+/* Campus Links*/
+#campus_links{text-align:right; background-color:#000; padding-right:18px; line-height:22px;}
+
+#campus_links a{color:#bebebe; text-decoration: none; }
+#campus_links a:hover{color:#fff; text-decoration: none; }
+
+#campus_links ul, #campus_links li, #campus_links p{display:inline;}
+#campus_links ul{margin:0;padding:0}
+#campus_links li{margin-left:10px;}
+
+/* U of M Maroon Header Bar*/
+#headerUofM{position:relative;background:#7a0019 url(http://design.umn.edu/images/global/bg_header.gif) repeat-x;height:63px;}
+#logo_uofm{background:url(http://design.umn.edu/images/global/logo_uofm_D2D.gif) no-repeat;height:62px;width:320px;}
+#logo_uofm a,#logo_uofm a:hover{	/*Push link text into the hidden overflow */
+	display:block;height:62px;		/*Must be same as #logo_uofm height */
+	width:0;padding-left:320px;		/*Must be same as #logo_uofm width */
+	overflow:hidden;
+}
+
+/* MyU and One Stop links*/
+#search_area{position:absolute;right:0;top:0;text-align:right;}
+#search_nav{position:absolute;right:10px;text-align:right;top:5px;}
+#search_nav a{display:block;float:right;width:0px;height:25px;padding-left:73px;overflow:hidden;margin-left:5px;}
+#btn_myu{background:url(http://design.umn.edu/images/global/btn_myu.gif);}
+#btn_onestop{background:url(http://design.umn.edu/images/global/btn_onestop.gif);}
+
+
+/* Search Box */
+#gsearch{background: url(http://design.umn.edu/images/global/search_field.gif) no-repeat; /* #f3c */height:22px ;width:269px;position:relative;top:35px;}
+#gsearch label{position:absolute; left:-9999px}
+#search_field{border:0;color:#666666;width:200px;position:absolute;top:3px;left:15px;font-size:11px;color:#333;}
+
+.leftprint, .rightprint { display:none;} /* For the print style sheet */
+
+
+
+/* ------- U of M Footer  ------- */
+
+#footer_inner { color: #fff; width:500px; line-height: 13pt; }
+.copyright { list-style:none; margin-left: -30px; }
+
+#footer_right{ float: right; color: #fff; width: 460px; text-align: right; line-height: 13pt }
+ul.footer_links { padding-right: 10px; list-style:none; }
+ul.footer_links li { display:inline; padding-left: 10px; }
+ul.footer_links li a{color:#bebebe; text-decoration: none; }
+ul.footer_links li a:hover{color:#fff; text-decoration: none; }
+ul.footer_links li a:active {color:#fff; text-decoration: underline; }

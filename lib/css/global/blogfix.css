@@ -1,0 +1,13 @@
+#col_right_interior_blog ul { list-style: none; }
+#col_right_interior_blog ol { }
+#col_right_interior_blog li { margin-bottom: 3px; margin-left: -40px; }
+
+.archives { color: #fff; width: 100%; background-color: #7a7a7a; text-align: center; padding: 10px 0; font-size: 9pt; font-weight: bold; }
+.archives a { color: #fff; text-decoration: none; }
+.archives a:hover { color: #fff; text-decoration: underline; }
+.commentForm { font-size: 10pt; }
+.commentLine { margin-bottom: 6px; }
+
+.foot { margin-top: -40px; height: 80px; }
+
+.grid_03 {  }

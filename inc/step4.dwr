@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="false" ignorewhitespace="true" useregexp="false" wholeword="false" />
+  <find>
+    <qtext qname="&lt;/p&gt;
+                &lt;p class=&quot;paragraph_style_1&quot;&gt;" qraw="true"></qtext>
+  </find>
+  <replace action="replaceText" param1=" " param2=""/>
+</dwquery>

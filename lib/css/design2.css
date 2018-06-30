@@ -1,0 +1,194 @@
+/* CDES Root Page CSS File */
+/* Developed by Paul Jarvis for the College of Design */
+/* University of Minnesota, 2011 */
+
+/* Wrappers */
+
+.wrapperStage { background: #fff; width: 100%; background: url(/images/bg.png) no-repeat center; margin: auto; position: relative; z-index: 1; }
+.wrapperStageInner { margin: auto; width: 960px; height: 421px; position: relative; overflow: hidden; position: relative; z-index: 1;  } 
+
+/* Stage Area */
+
+#stage { 
+	height: 421px;  
+	width: 960px; 
+	background: #000; 
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+
+#stagePane1 {												/* sets pane 1 as the displayed pane on load */
+	height: 360px;
+	width: 960px;
+	position: absolute;
+	z-index: 2;
+}
+
+#stagePane2, #stagePane3, #stagePane4, #stagePane5 {		/* sets stage panes as hidden */
+	height: 360px;
+	width: 960px;
+	position: absolute;
+	display: none;
+}
+
+#stageNav {
+	height: 61px;
+	width: 960px;
+	background: #000;
+	position: absolute;
+	bottom: 0;
+}
+
+#stageNav ul { margin:0; padding:0; margin-top: -9px; position: absolute; left: 220px; }
+#stageNav li {
+	height: 70px;
+	width: 100px;
+	margin: 0;
+	display: block;
+	list-style: none;
+	float: left;
+	cursor: pointer;
+}
+
+#stageNav .features { background: url(../../images/stagenav_features.png) no-repeat 0 0; background-position: -100px 0; }
+#stageNav .stories { background: url(../../images/stagenav_stories.png) no-repeat 0 0; background-position: -100px 0; }
+#stageNav .exhibitions { background: url(../../images/stagenav_exhibitions.png) no-repeat 0 0; background-position: -100px 0; }
+#stageNav .gallery { background: url(../../images/stagenav_gallery.png) no-repeat 0 0; background-position: -100px 0; }
+#stageNav .initiatives { background: url(../../images/stagenav_initiatives.png) no-repeat 0 0; background-position: -100px 0; }
+
+#stageNav ul li:hover { background-position: -200px 0; }
+
+#stageNav ul li.active { background-position: 0 0; cursor: default; }
+
+
+/* Stage Content Elements */
+
+#stage #initLink1 { height: 90px; width: 960px; background: url(../../images/features/desHealth.png) no-repeat 0 0; }
+#stage #initLink2 { height: 90px; width: 960px; background: url(../../images/features/desSustain.png) no-repeat 0 0; }
+#stage #initLink3 { height: 90px; width: 960px; background: url(../../images/features/desEcon.png) no-repeat 0 0; }
+#stage #initLink4 { height: 90px; width: 960px; background: url(../../images/features/desAll.png) no-repeat 0 0; }
+
+#stage #initLink1:hover, #stage #initLink2:hover, #stage #initLink3:hover, #stage #initLink4:hover { background-position: 0 -90px; }
+
+#stage #summary h1 { color: #fc3; font: normal 22pt 'ProximaNovaBold', Arial, Helvetica, sans-serif; margin: 30px; }
+#stage #summary h2 { color: #fff; font: normal 18pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 0 30px 0 30px; }
+#stage #summary p { color: #fff; font: normal 14pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 30px 30px 0 30px; }
+
+/* Body content */
+
+
+
+
+
+
+
+/* Site index */
+#newsbox { position: relative; padding-bottom: 20px; }
+.date { font: normal 8pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 0; } /* date */
+#newsbox .title { color: #000; font: normal 12pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin-bottom: 12px; }
+#newsbox .title2 { color: #000; font: normal 9pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin-bottom: 10px; } 
+
+#feed { 
+	border-top: dotted 1px #ddd;
+	padding: 8px; 
+	height: 55px;
+	font-family: 'ProximaNovaRegular', Arial, Helvetica, sans-serif; 
+}
+
+#feed .title { font-size: 12pt; line-height: 16pt; }
+#feed .title2 { font-size: 9pt; line-height: 12pt; }
+#feed .title a:link, .title2 a:link { color: #303030; text-decoration: none; } 
+#feed .title a:visited, .title2 a:visited { color: #303030; text-decoration: none; } 
+#feed .title a:hover, .title2 a:hover { color: #940010; text-decoration: none; }
+
+#feed .date { font: normal 8pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; margin: 0; } /* date */
+
+a#more { width: 100%; background-color: #bebebe; -moz-border-radius: 4px; border-radius: 4px; padding: 4px 0; float: right; text-transform: uppercase; font-size: 7pt; text-align: right; position: absolute; right: 0; bottom: 0; color: #fff; position: relative; }
+a#more:hover { background-color: #333; color: #bebebe; text-decoration: none; }
+
+
+
+
+
+
+/* about */
+
+#aboutblurb { width: 680px; height: 220px; background-image: url(/images/about_thumb1.jpg); }
+#blurbbox { padding: 14px 24px; width: 400px; }
+
+#aboutdegrees { font-size: 100%; }
+#aboutdegrees #split { width: 340px; display: inline; float: left; }
+
+#aboutdegrees ul ul li { margin-left: -40px; }
+
+/* labs */
+#labs { width: 142px; height: 94px; display: inline; float: left; position: relative; padding: 0; margin: 0 13px 12px 0; }
+
+#labs .opac {
+			background-color: #000;
+			opacity: 0.85;
+			filter:alpha(opacity=85);
+			position: absolute;	
+			width: 142px;
+			height: 24px;
+		}
+		
+#labs p { text-align: left; padding: 6px; color: #fff; position: absolute; text-decoration: none; width: 130px; font: normal 7pt Verdana, Geneva, sans-serif; }
+#labs:hover p { background-color: #940010; color: #fff; text-decoration: none; }
+
+/* contact */
+
+#building { bottom: 0px; padding: 0 0 6px 0; margin-right: 70px; display: inline; float: left; }
+#building .icons { text-align: right; padding-right: 30px; display: inline; float: left; font-weight: bold; }
+#building .info { text-align: left; padding: 0; display: inline; float: left; }
+#building a { font-size: 8pt; }
+
+#unit { width: 100%; padding: 6px 0 16px 0; position: relative; clear: both; }
+#unit .name { font-weight: bold; font-size: 11pt; }
+#unit .address { }
+#unit .rep { font-size: 8pt; }
+#unit .phone { position: absolute; right: 0; bottom: 16px; text-align: right; }
+
+#sidebar { 
+	background-color: #444; 
+	color: #fff; 
+	padding: 20px; 
+	position: relative; 
+	-moz-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-webkit-border-radiust: 4px;
+}
+
+#sidebar a { color: #bebebe; text-decoration: none; }
+#sidebar a:hover { color: #fff; text-decoration: none; }
+
+#directoryButton { width: 280px; height: 80px; padding: 0; }
+.directoryLink { width: 280px; height: 80px; position: absolute; background: url(/images/button_directory.png) no-repeat 0 0; left: 0px; }
+.directoryLink:hover { background-position: 0 -80px; }
+
+/* Academics */
+#programs { width: 960px; margin: auto; }
+#progList { height: 90px; width: 110px; margin: 14px 4px 14px 4px; display: inline; float: left; border: solid 1px #888; }
+
+#programs ul { list-style: none; margin-left: -40px; }
+
+#degreeList { height: 220px; }
+
+.prog_01 { background: url(/images/prog_apparel.png) no-repeat 0 0; }
+.prog_02 { background: url(/images/prog_arch.png) no-repeat 0 0; }
+.prog_03 { background: url(/images/prog_gdes.png) no-repeat 0 0; }
+.prog_04 { background: url(/images/prog_housing.png) no-repeat 0 0; }
+.prog_05 { background: url(/images/prog_intdes.png) no-repeat 0 0; }
+.prog_06 { background: url(/images/prog_larch.png) no-repeat 0 0; }
+.prog_07 { background: url(/images/prog_pdes.png) no-repeat 0 0; }
+.prog_08 { background: url(/images/prog_retail.png) no-repeat 0 0; }
+
+#progList:hover { background-position: -110px 0; }
+/*.programs li img { height: 100px; width: 110px; margin-bottom: 5px; } */
+
+/* Students */
+#students img { padding: 0; margin: 0; }

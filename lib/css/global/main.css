@@ -1,0 +1,510 @@
+/* Master CSS Style sheet for the College of Design */
+/* Altering contents of this file will affect (nearly) ALL PROGRAM SITES! */
+/* includes commonly-used styles for design templates, U of M header and footer */
+/* and other global includes such as the jQuery sitemap */ 
+
+/* fonts */
+
+@font-face {
+	font-family: 'ProximaNovaRegular';
+	 
+	src: url('http;//design.umn.edu/lib/fonts/proximanova_regular_macroman/Proxima_Nova_Reg-webfont.eot') ('embedded-opentype');
+	src: local('☺'),
+		url('http;//design.umn.edu/lib/fonts/proximanova_regular_macroman/Proxima_Nova_Reg-webfont.woff') format ("woff"),
+		url('http://design.umn.edu/lib/fonts/proximanova_regular_macroman/Proxima_Nova_Reg-webfont.ttf') format('truetype');
+		
+} 
+
+@font-face {
+	font-family: 'ProximaNovaBold';
+	src: url('http;//design.umn.edu/lib/fonts/proximanova_bold_macroman/Proxima_Nova_Bold-webfont.eot');
+	 
+	src: local('Proxima Nova Bold'),
+		url('http://design.umn.edu/lib/fonts/proximanova_bold_macroman/Proxima_Nova_Bold-webfont.ttf') format('truetype');
+} 
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('http://design.umn.edu/lib/fonts/bebas_neue/BebasNeue-webfont.eot');
+    src: url('http://design.umn.edu/lib/fonts/bebas_neue/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://design.umn.edu/lib/fonts/bebas_neue/BebasNeue-webfont.woff') format('woff'),
+         url('http://design.umn.edu/lib/fonts/bebas_neue/BebasNeue-webfont.ttf') format('truetype'),
+         url('http://design.umn.edu/lib/fonts/bebas_neue/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* common */
+
+html { height: 100%; }
+body { height: 100%; width: 100%; margin: 0; background: #fff; font: normal 0.8333em/1.2em Verdana, Arial, Helvetica, sans-serif; }
+
+h1 { color: #940010; font: normal 200% Verdana, Arial, Helvetica, sans-serif; margin: 0 0 12px 0; } 
+h2 { color: #940010; font: normal 150% Verdana, Helvetica, sans-serif; margin: 0 0 12px 0; } 
+h3 { color: #000; font: normal 140% Verdana, Arial, Helvetica, sans-serif; margin: 0 0 12px 0; }	 
+h4 { color: #000; font: normal 120% Verdana, Arial, Helvetica, sans-serif; margin: 0 0 12px 0; }  
+h5 { color: #7a7a7a; font: bold 100% Verdana, Arial, Helvetica, sans-serif; margin: 0 0 12px 0; } 
+
+p { margin: 0; }
+span { }
+
+hr { border: none; border-bottom: 1px dotted #bebebe; margin: 6px 0 6px 0; }
+
+ul { list-style-image: url(/images/global/li_icon.png); }
+ol { }
+li { margin-bottom: 3px; margin-left: -20px;}
+
+.nobullets { list-style: none; }
+
+/* links */
+
+a:link { color: #940010; text-decoration: none; }
+a:visited { color: #940010; text-decoration: none; }
+a:hover { color: #940010; text-decoration: underline; }
+
+h4 a:link { color: #000; text-decoration: none; }
+h4 a:visited { color: #000; text-decoration: none; }
+h4 a:hover { color: #940010; text-decoration: none; }
+
+a img { border: none; }
+
+.divider { border-bottom: solid 1px #999; padding-bottom: 24px; }
+.divider2 { border-bottom: dotted 1px #999; padding-bottom: 10px; }
+
+.indent { margin: 0 20px; }
+
+/* buttons */
+
+.button1 { padding: 5px 10px; background-color: #7a7a7a; font-size: 9pt; -moz-border-radius: 4px; border-radius: 4px; }
+a.button1:link { color: #fff; text-decoration: none }
+a.button1:visited { color: #fff; text-decoration: none }
+a.button1:hover { color: #fff; text-decoration: underline; }
+
+/* content sections */
+
+.section1 { 
+	width: 100%; 
+	border-bottom: 1px solid #7a7a7a; 
+	color: #940010; 
+	padding-bottom: 6px;
+	margin-bottom: 6px;
+	font-size: 130%; 
+	font-weight: normal; 
+}
+
+.centered { margin: auto; }
+
+/* colors */
+
+.color1 { color: #940010; }
+.color2 { color: #7a7a7a; }
+.color3 { color: #444444; }
+.color4 { color: #ffffff; }
+.color5 { color: #ffcc33; }
+.color6 { color: #bebebe; }
+
+/* pdf icon */
+
+.PDFiconLeft { 
+	background: url(http://design.umn.edu/images/global/icon_pdf.png) no-repeat 0 0; 
+	min-width: 16px; 
+	padding-left: 22px; 
+}
+
+.PDFiconRight { 
+	background: url(http://design.umn.edu/images/global/icon_pdf.png) no-repeat right 0; 
+	min-width: 16px; 
+	padding-right: 22px; 
+}
+
+
+/* image padding options */
+
+.padding10 { padding: 10px; }
+.padding20 { padding: 20px; }
+
+/* float clear */
+
+.clear { clear: both; } 						
+
+/* float classes */
+
+.left { float: left; }
+.right { float: right; }
+
+/* blog */
+
+.archives { color: #fff; width: 100%; background-color: #7a7a7a; text-align: center; padding: 10px 0; font-size: 9pt; font-weight: bold; }
+.archives a { color: #fff; text-decoration: none; }
+.archives a:hover { color: #fff; text-decoration: underline; }
+.commentForm { font-size: 10pt; }
+.commentLine { margin-bottom: 6px; }
+
+/* wrappers */
+
+.wrap { min-height: 100%; z-index: 0; }
+.foot { margin-top: -60px; height: 101px; }
+
+.wrapperHead { width: 100%; z-index: 99; position: relative; }
+.wrapperHead .black { background-color: #000; }
+.wrapperHead .white { background-color: #fff; }
+
+.wrapperNav  { background-color: #000; width: 100%; height: 24px; }
+.wrapperBody { background-color: #fff; width: 100%; padding-bottom: 1px; margin-bottom: 60px; }
+
+.wrapperUMNhead { background: url(/images/global/bg_head_oflow.png) repeat-x 0 0; width: 100%; }
+.wrapperNavInner { margin: auto; width: 960px; height: 24px; position: relative; padding: 0; z-index: 99; }
+.wrapperBodyInner { margin: auto; width: 960px; background: #fff; overflow: auto; margin-bottom: 40px; z-index: 0; }
+
+.wrapperSitemap1 { width: 100%; height: 20px; position: relative; }
+.wrapperSitemap2 { width: 100%; height: 20px; position: absolute; top: 0px; overflow: hidden; }
+.wrapperFoot { width: 100%; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 70%; }
+.wrapperFootInner { margin: auto; width: 960px; padding: 5px; padding-top: 10px; }
+
+.black { background-color: #000; color: #fff; }
+.black a { color: #bebebe; text-decoration: none; }
+.black a:hover { color: #fff; text-decoration: none; }
+
+.white { background-color: #fff; color: #000; }
+.white a { color: #940010; text-decoration: none; }
+.white a:hover { color: #000; text-decoration: none; }
+
+.white .wrapperSitemap2 { border-top: 1px solid #bebebe; } /* program sitemap divider */
+
+/* 960 grid width classes */
+
+.grid_03 { width: 200px; display: inline; float: left; padding: 20px; }
+.grid_04 { width: 280px; display: inline; float: left; padding: 20px; }
+.grid_05 { width: 360px; display: inline; float: left; padding: 20px; }
+.grid_06 { width: 440px; display: inline; float: left; padding: 20px; }
+.grid_07 { width: 520px; display: inline; float: left; padding: 20px; }
+.grid_08 { width: 600px; display: inline; float: left; padding: 20px; }
+.grid_09 { width: 680px; display: inline; float: left; padding: 20px; }
+.grid_12 { width: 920px; display: inline; float: left; padding: 20px; }
+
+/* .grid_03 img, .grid_04 img, .grid_05 img, .grid_06 img, .grid_07 img, .grid_08 img, .grid_09 img { padding: 0px; } */
+
+/* college of design spread */
+
+#colorBar { position: relative; margin: auto; background: url(/images/global/head_colorbar.gif) repeat-x center center; width: 100%; height: 4px; }
+
+#titleBar { margin: auto; width: 960px; position: relative; background-color: #000; }
+#titleBar img { border: none; z-index: -1; }
+
+
+
+
+
+
+/* ------- U of M Header -------- */
+
+#header{ width: 960px; height: auto; margin: auto; font-family:Arial, Helvetica, sans-serif; line-height:18px; border: none; background: none; background-color: transparent; }
+#header ul, #header li, #header p, #header div{font-size:11px;}
+
+#skipLinks{ position:absolute; left:-9999px } /* Hide the Skip links*/
+
+/* Campus Links*/
+#campus_links{text-align:right; padding-right:12px; line-height:22px;}
+#campus_links ul, #campus_links li, #campus_links p{display:inline;}
+#campus_links ul{margin:0;padding:0}
+#campus_links li{margin-left:10px;}
+
+/* U of M Maroon Header Bar*/
+#headerUofM{position:relative;background:#7a0019 url(/images/global/bg_header.gif) repeat-x;height:63px; }
+#logo_uofm{background:url(/images/global/logo_uofm_D2D.gif) no-repeat;height:62px;width:320px; }
+#logo_uofm a,#logo_uofm a:hover{ display:block;height:62px;	width:0;padding-left:320px;	overflow:hidden; }
+
+/* MyU and One Stop links*/
+#search_area{position:absolute;right:0;top:0;text-align:right;}
+#search_nav{position:absolute;right:10px;text-align:right;top:5px;}
+#search_nav a{display:block;float:right;width:0px;height:25px;padding-left:73px;overflow:hidden;margin-left:5px;}
+#btn_myu{background:url(/images/global/btn_myu.gif);}
+#btn_onestop{background:url(/images/global/btn_onestop.gif);}
+#btn_email{background:url(/images/global/btn_email.gif);}
+
+
+/* Search Box */
+#gsearch{background: url(/images/global/search_field.gif) no-repeat; /* #f3c */height:22px ;width:269px;position:relative;top:35px;}
+#gsearch label{position:absolute; left:-9999px}
+#search_field{border:0;color:#666666;width:200px;position:absolute;top:3px;left:15px;font-size:11px;color:#333;}
+
+.leftprint, .rightprint { display:none;} /* For the print style sheet */
+
+/* -------------------------------- */
+
+/* navigation */
+
+#topnav { font-family: Verdana, Arial, Helvetica, sans-serif; margin: 0;	z-index: 100; position: relative; }
+#topnav ul { margin: 0; padding: 0; float: left; position: relative; }
+#topnav ul li { 
+	position: relative; 
+	float: left; 
+	height: 16px;
+	list-style: none; 
+	text-transform: uppercase; 
+	font-size: 10px; 
+	padding: 4px 10px 4px 10pt; 
+	margin: 0;
+}
+#topnav ul li a { color: #fff; text-decoration: none; }
+#topnav ul li:hover { 
+	background-color: #222; 
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	-webkit-border-radius-topleft: 4px;
+	-webkit-border-radius-topright: 4px;
+}
+
+#topnav li .sub {
+	clear: both;
+	float: left;
+	display: none;
+	position: absolute;
+	top: 24px; 
+	left: 0px;
+	z-index: 99;
+	padding: 20px 10px;
+	-moz-box-shadow: 0 3px 3px #000;
+	box-shadow: 0 3px 3px #000;
+	-webkit-box-shadow: 0 3px 3px #000;
+	background: #444 url(/images/global/nav_grad.png) repeat-x top left;
+	background-color: #444;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-webkit-border-radius-bottomleft: 4px;
+	-webkit-border-radius-bottomright: 4px;
+}
+
+#topnav li .sub ul { list-style: none;	width: 180px; float: left; font-size: 10pt; }
+#topnav li .sub ul li { width: 170px; height: auto; margin: 3px 0; padding: 0 0 0 10px; text-align: left; text-transform: none; font-weight: normal; border: none;}
+#topnav li .sub ul li:hover { -moz-border-radius: 4px; border-radius: 4px; -webkit-border-radius: 4px;background-color: #555;  }
+#topnav li .sub a { color: #ccc; font-weight: normal; }
+#topnav li .sub a:hover { text-decoration: none; color: #fff; }
+
+#topnav li .sub h1 { margin: 0; padding: 0 0 8px 10px; font-size: 7pt; color: #fff; font-weight: normal; text-transform: uppercase; }
+
+/* social media bar */
+
+#socialBar { position: absolute; top: 50%; right: 5px; height: 30px; margin-top: -12px; }
+#facebook { height: 30px; width: 30px; background: url(/images/global/social_fb.png) no-repeat 0 0; position: absolute; right: 160px; }
+#facebook:hover { background-position: -30px 0; }
+#twitter { height: 30px; width: 30px; background: url(/images/global/social_tw.png) no-repeat 0 0; position: absolute; right: 120px; }
+#twitter:hover { background-position: -30px 0; }
+#linkedin { height: 30px; width: 30px; background: url(/images/global/social_in.png) no-repeat 0 0; position: absolute; right: 80px; }
+#linkedin:hover { background-position: -30px 0; }
+#youtube { height: 30px; width: 30px; background: url(/images/global/social_yt.png) no-repeat 0 0; position: absolute; right: 40px; }
+#youtube:hover { background-position: -30px 0; }
+
+#facebook2 { height: 30px; width: 30px; background: url(/images/global/social_fb2.png) no-repeat 0 0; position: absolute; right: 200px; }
+#facebook2:hover { background-position: -30px 0; }
+
+#rss { height: 30px; width: 30px; background: url(/images/global/social_rss.png) no-repeat 0 0; position: absolute; right: 0px; }
+#rss:hover { background-position: -30px 0; }
+
+/* email list link */
+
+#maillist  { 
+	position: absolute; 
+	bottom: -24px; 
+	right: 0px; 
+	height: 12px; 
+	width: 120px;
+	padding: 6px 10px 7px 10px; 
+	font-size: 8pt; 
+	text-align: right;	
+	-moz-border-radius-topleft: 12px;
+	-moz-border-radius-topright: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	-webkit-border-radius-topleft: 12px;
+	-webkit-border-radius-topright: 12px;
+	text-transform: uppercase; 
+	color: #bebebe;
+	text-decoration: none;
+	font-family: 'ProximaNovaRegular', Verdana, Arial, Helvetica, sans-serif;
+}
+
+#maillist:hover { color: #fff; text-decoration: none; cursor: pointer; }
+
+/* OLD email form (to be phased out 2-8-2012) */
+
+#emailForm {
+	background-color: #000;	
+	z-index: 9999999;
+	height: 355px;
+	width: 325px;
+	border: 4px solid #fff;
+	color: #fff;
+	margin: auto;
+	margin-top: 14px;
+	padding: 20px;
+	font-size: 10pt;
+	font-family: Verdana, Arial, Arial, Helvetica, sans-serif; 
+}
+
+#emailForm h1 { font-size: 12pt; color: #fb0038; margin: 0 0 10px 0; }
+#emailForm #bit { color: #bebebe; margin: 5px; display: inline; float: left; width: 150px; }
+#emailForm .red { color: #fb0038; display: inline; }
+#emailForm #boxes { clear: both; display: block; font-size: 8pt; padding-bottom: 2px; }
+#emailForm #end { position: absolute; bottom: 30px; margin-left: 5px; width: 310px; text-align: right; }
+#emailForm #req { position: absolute; bottom: 30px; margin-left: 5px; width: 310px; text-align: left; color: #fb0038; font-size: 8pt; }
+
+#emailForm span { font-size: 8pt; color: #bebebe; margin: 0 0 10px 0; }
+
+#emailForm .content { font-size: 10pt; color: #fff; }
+
+/* NEW email form */
+
+#mailDialog { display: none; position: relative; }
+#mailDialog .description { padding: 6px 12px 12px 12px; font-size: 70%; color: #444; }
+#mailDialog form fieldset { border: none; padding: 12px 12px; margin: 0; border-top: 1px dotted #7a7a7a; }
+#mailDialog form fieldset .item { display: inline; float: left; position: relative; }
+#mailDialog form fieldset .marginR { margin-right: 15px; }
+#mailDialog form fieldset .marginL { margin-left: 15px; }
+#mailDialog form fieldset label { color: #7a7a7a; font-family: "ProximaNovaRegular", Verdana, Helvetica, Arial, Sans-Serif; font-size: 7pt; font-weight: bold; text-transform: uppercase; }
+#mailDialog form fieldset input { padding: 2px 6px; margin: 4px 0 6px 0; width: 280px; font: normal 10pt Verdana, Arial, Helvetica, sans-serif; }
+#mailDialog form fieldset #city { width: 118px; }
+#mailDialog form fieldset #state { width: 40px; }
+#mailDialog form fieldset #zip { width: 60px; }
+#mailDialog .buttons { float: right; margin-top: 20px; }
+
+#mailDialog #thankyou { 
+	display: none; 
+	position: absolute; 
+	top: 80px; 
+	left: 0; 
+	right: 0; 
+	margin: 0 auto;
+	padding: 20px;
+	width: 240px;  /* 20 x2 padding, 20x2 border */
+	height: 70px; 
+	background-color: #303030; 
+	color: #fff; 
+	font-size: 8pt;
+	text-align: center; 
+	border-left: solid 20px #940010; 
+	border-right: solid 20px #940010;
+}
+
+#mailDialog #thankyou h1 { 
+	font-family: "BebasNeueRegular", Verdana, Helvetica, Arial, Sans-Serif; 
+	font-size: 24pt; 
+	color: #fff;
+}
+
+#mailForm label.error {
+	position: absolute;
+	right: 0;
+	top: 0px;
+	color: #f00;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 7pt;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+}
+
+
+/* Site Map */
+
+.black .trigger { color: #bebebe; }
+.black .trigger:hover { color: #fff; }
+
+.white .trigger { color: #7a7a7a; }
+.white .trigger:hover { color: #000; }
+
+#sitemap { margin: auto; width: 960px; height: 20px; position: relative; background-color: inherit; }
+
+#sitemap .trigger {
+	padding-top: 6px;
+	font: normal 9pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif;
+	margin: auto;
+	height: 20px;
+	width: 80px;
+	cursor: pointer;
+	font-size: 8pt; 
+	text-align: center;
+	z-index: 1000;
+}
+
+#sitemapList { 
+	position: relative;
+	list-style: none; 
+	font: normal 8pt Arial, Helvetica, sans-serif; 
+	margin-top: -10px;
+	padding: 20px;
+	height: 220px;
+	width: 240px;
+	float: left;
+	color: inherit;
+	z-index: 0;
+}
+
+/* #sitemapList a { color: #fff; text-decoration: none; }
+#sitemapList a:hover { color: #fc3 } */
+
+#sitemapList li { margin-bottom: 14px; }
+
+#sitemapRight {
+	position: absolute;
+	right: 0px;
+	width: 240px;
+	height: 220px;
+	padding-right: 24px;
+	padding-top: 7px;
+	font: normal 8pt Verdana, Arial, Helvetica, sans-serif; 
+	text-align: right;
+	color: inherit;
+}
+
+/* page headers */
+
+#articleHeader {	
+	width: 960px;
+	height: 200px;
+	position: relative;
+	/* margin-bottom: 24px; */
+	overflow: hidden;
+	z-index: 0;
+}
+
+#articleHeader h1 {
+	color: #fff; 
+	font: normal 24pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; 
+	margin: 0;
+	padding: 7px 0 0 20px;
+	position: absolute;	
+	bottom: 0px;
+	background-color: #000;
+	height: 43px;
+	width: 940px;
+}
+
+/* ------- U of M Footers  ------- */
+
+/* black footer */
+#footer_inner { width:500px; line-height: 13pt; text-align: left; }
+#footer_inner .copyright { list-style:none; }
+
+#footer_right { float: right; width: 460px; text-align: right; line-height: 13pt }
+#footer_right ul.footer_links { padding-right: 10px; list-style:none; }
+#footer_right ul.footer_links li { display:inline; padding-left: 10px; margin: 0; }
+
+/* white footer */
+#footer_inner2 { width:500px; line-height: 13pt; }
+#footer_inner2 .copyright { list-style:none; margin-left: -30px; }
+
+#footer_right2 { float: right; width: 460px; text-align: right; line-height: 13pt }
+#footer_right2 ul.footer_links { padding-right: 10px; list-style:none; }
+#footer_right2 ul.footer_links li { display:inline; padding-left: 10px; }
+
+
+/* jQuery UI template revisions */
+
+.ui-widget-header { font-family: "ProximaNovaRegular", Verdana, Helvetica, Arial, Sans-Serif; font-weight: normal; font-size: 0.9em; text-transform: uppercase; font-weight: bold; }
+.ui-dialog-title { padding-top: 0px; }
+
+.ui-button .ui-button-text { font-family: "ProximaNovaRegular", Verdana, Helvetica, Arial, Sans-Serif; font-weight: bold; font-size: 0.9em; line-height: 0; padding: 12px 16px 12px 16px; text-transform: uppercase; }

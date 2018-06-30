@@ -1,0 +1,111 @@
+/* Additional CSS and CSS overwrites for College of Design Student blogs to keep the MT template clean */
+/* Paul Jarvis, 2012 */
+
+.capitalized { text-transform: lowercase; } /*  force capitalization of an element */
+
+.widget h3 { font: bold 9pt/9pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; color: #303030; text-transform: uppercase; margin-bottom: 5px; }
+
+#container { background-color: #000; }
+#container-inner { width: 960px; background-color: #fff; }
+
+#content-inner { padding-top: 0; }
+
+.layout-wt #alpha { width: 640px; line-height: 16pt; background-color: #fff; padding-top: 20px; }
+.layout-wt #beta { width: 320px; padding-top: 20px; background-color: #fff; }
+.layout-wt #alpha #alpha-inner { padding: 10px 40px; }
+
+.asset-header h2 { font: bold 22pt/24pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; }
+.asset-header h2 a:hover { text-decoration: none; color: #303030; }
+
+#alpha-inner, #beta-inner { overflow: visible; }
+
+#entryDateShort { 
+	width: 80px; 
+	height: 80px; 
+	position: absolute; 
+	left: -40px;
+    -webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-khtml-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+	background: #a90329; /* Old browsers */
+	background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+	background: linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    -webkit-box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, .4);
+	-moz-box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, .4);
+    box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, .4);
+ }
+	.entryDateMonth { font: bold 13pt/13pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; color: #fff; margin-top: 16px; text-transform: uppercase; }
+	.entryDateDay { font: bold 22pt/22pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; color: #fff; margin-top: 5px; }
+
+#entryMetaLong { margin-left: 40px; height: 100px; }
+	.entryMeta { font: normal 9pt/9pt Arial, Helvetica, sans-serif; color: #909090; padding-bottom: 15px; border-bottom: dotted 1px #bebebe; font-style: italic; }
+
+
+.archive-content ul, .widget-content ul {
+    list-style: none outside none;
+    margin: 20px;
+    padding: 0;
+}
+
+#beta .authorNames  { font: bold 15pt/18pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; text-transform: uppercase; }
+	#beta .authorNames a { color: #303030; text-decoration: none; }
+	#beta .authorNames a:hover { color: #909090; text-decoration: none; }
+	
+#beta .authorList ul { list-style: none; margin-left: 0; margin-top: 18px; }
+#beta .authorList ul li { height: 80px; margin-left: 0; margin-bottom: 8px; clear: both; }
+#beta .authorList ul li a:hover { text-decoration: none; }
+#beta .authorList ul li img { float: left; margin-right: 10px; }
+#beta .authorList ul li .category { 
+	font: bold 7pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; text-transform: uppercase;
+	padding-top: 24px;
+	color: #000;
+}
+#beta .authorList ul li .name {  
+	font: bold 18pt/18pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif; text-transform: uppercase;
+	padding-bottom: 9px;
+}
+
+#beta .authorList ul li:hover .name {  
+	border-bottom: solid 12px #940010;
+}
+
+#header-inner{ padding: 0; }
+
+
+.recentPosts { padding: 5px 0; border-bottom: dotted 1px #bebebe; margin-bottom: 5px; font-size: 8pt; }
+
+/*  search bar  widget  */
+
+#searchform { position: relative; margin: 20px; }
+
+#search { 
+	width: 200px; padding: 6px 28px 6px 12px; border: none;  
+	-webkit-box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, .25);
+	-moz-box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, .25);
+	box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, .25);
+	margin-right: 0;
+	font: bold 14pt/14pt 'ProximaNovaRegular', Arial, Helvetica, sans-serif;
+	color: #940010;
+}
+		
+.searchBTN { 
+	margin: 0; 
+	padding: 0; 
+	background: #fff url(http://design.umn.edu/images/blogs/studentblog/icon_search.png) no-repeat 0 0; 
+	border: 0; 
+	height: 26px; 
+	width:  26px;
+	position: absolute;
+	top: 5px;
+	right: 0px; 
+	cursor: pointer;
+}
+
+.searchBTN:hover { background-position: -26px 0; }

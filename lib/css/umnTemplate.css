@@ -1,0 +1,56 @@
+/* Current U of M header and footer [as of 7/1/2011] with search bar and horizontal campus links */
+
+/* ------- U of M Header -------- */
+
+#header{ width: 960px; margin: auto; font-family:Arial, Helvetica, sans-serif;line-height:18px; color:#fff; }
+#header ul, #header li, #header p, #header div{font-size:11px;}
+
+#skipLinks{ position:absolute; left:-9999px } /* Hide the Skip links*/
+
+/* Campus Links*/
+#campus_links{text-align:right; background-color:#000; padding-right:18px; line-height:22px;}
+
+#campus_links a{color:#bebebe; text-decoration: none; }
+#campus_links a:hover{color:#fff; text-decoration: none; }
+
+#campus_links ul, #campus_links li, #campus_links p{display:inline;}
+#campus_links ul{margin:0;padding:0}
+#campus_links li{margin-left:10px;}
+
+/* U of M Maroon Header Bar*/
+#headerUofM{position:relative;background:#7a0019 url(../../images/bg_header.gif) repeat-x;height:63px;}
+#logo_uofm{background:url(../../images/logo_uofm_D2D.gif) no-repeat;height:62px;width:320px;}
+#logo_uofm a,#logo_uofm a:hover{	/*Push link text into the hidden overflow */
+	display:block;height:62px;		/*Must be same as #logo_uofm height */
+	width:0;padding-left:320px;		/*Must be same as #logo_uofm width */
+	overflow:hidden;
+}
+
+/* MyU and One Stop links*/
+#search_area{position:absolute;right:0;top:0;text-align:right;}
+#search_nav{position:absolute;right:10px;text-align:right;top:5px;}
+#search_nav a{display:block;float:right;width:0px;height:25px;padding-left:73px;overflow:hidden;margin-left:5px;}
+#btn_myu{background:url(../../images/btn_myu.gif);}
+#btn_onestop{background:url(../../images/btn_onestop.gif);}
+
+
+/* Search Box */
+#gsearch{background: url(../../images/search_field.gif) no-repeat; /* #f3c */height:22px ;width:269px;position:relative;top:35px;}
+#gsearch label{position:absolute; left:-9999px}
+#search_field{border:0;color:#666666;width:200px;position:absolute;top:3px;left:15px;font-size:11px;color:#333;}
+
+.leftprint, .rightprint { display:none;} /* For the print style sheet */
+
+
+
+/* ------- U of M Footer  ------- */
+
+#footer_inner { color: #fff; width:500px; line-height: 13pt; }
+.copyright { list-style:none; margin-left: -30px; }
+
+#footer_right{ float: right; color: #fff; width: 460px; text-align: right; line-height: 13pt }
+ul.footer_links { padding-right: 10px; list-style:none; }
+ul.footer_links li { display:inline; padding-left: 10px; }
+ul.footer_links li a{color:#bebebe; text-decoration: none; }
+ul.footer_links li a:hover{color:#fff; text-decoration: none; }
+ul.footer_links li a:active {color:#fff; text-decoration: underline; }

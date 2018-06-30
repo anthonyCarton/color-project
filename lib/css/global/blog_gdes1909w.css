@@ -1,0 +1,26 @@
+/* Additional CSS and CSS overwrites for College of Design Student blogs to keep the MT template clean */
+/* Paul Jarvis, 2012 */
+#container { background-color: #fff; width: 100%; }
+#container-inner { width: 100%; margin-top: 0; }
+
+#content-inner { width: 960px;  padding-top: 20px; margin: auto; }
+
+#header-content { background-image: url(http://blog.lib.umn.edu/design/des1909w/images/gdes1090w_banner.jpg); height: 350px; text-align: left; }
+
+
+.archive-content ul, .widget-content ul {
+    list-style: none outside none;
+    margin: 20px;
+    padding: 0;
+}
+
+#header-inner{ padding: 0; }
+
+.layout-wt #alpha { width: 680px; }
+.layout-wt #beta { width: 240px; }
+
+#header-name a { color: #fff; padding: 20px; position: absolute; bottom: 20px; width: 560px; background-color: #000; }
+#header-description { margin: 0; }
+
+#intro { padding: 20px; border: solid 1px #bebebe; margin-bottom: 20px; }
+#intro p { margin-bottom: 16px; font-size: 8pt; }

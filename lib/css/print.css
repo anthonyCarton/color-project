@@ -1,0 +1,46 @@
+/* UNIVERSITY OF MINNESOTA WEB TEMPLATE PRINT STYLESHEET */
+/* FEBRUARY 2009 : UNIVERSITY RELATIONS*/
+/* v3.090219  */
+
+html {background-color:#FFFFFF;color:#000000;}
+
+/* Styles set to display:none */
+
+body.center {background : #FFFFFF; background-color : #FFFFFF; font-family: Times, serif; font-size: 12pt; color:black; width: 7in;}
+
+#skipLinks a { display: none; }
+#skipLinks { color: transparent; }
+
+.main_head { display: none;}
+#main_head {display: none;}
+
+#campus_links, #search_area, #logo_uofm, #header, #header_sub, #topnav, #socialBar, #unit_footer1, #unit_footer2, #footer_right, #main_head, .main_head, .breadcrumbs, #sitemap, #articleHeader {display: none;}
+
+/* Positioning wordmark and unit contact information */
+.leftprint { display: block; }
+
+.rightprint { display: block; text-align: right; padding-bottom: 10px; }
+
+/* Cover template background image with a white background */
+
+#bg, #bg264, #bg273, #bg354 { background-image: url(/assets/img/white.gif);background-repeat:repeat; border-top: 3px solid #e4e4e4;width:700px; float:none;}
+
+/* Set width of grids for print */
+
+.wrapperBody { border-bottom: none; background-color: #FFFFFF; background-image:none; width:auto; overflow:visible;float:none;}
+.wrapperBody .grid_9 { width: 7in; text-align:left;overflow:visible;}
+.wrapperBody .grid_3 { width: 7in; text-align:left;}
+.wrapperBody .grid_3 { width: 7in;}
+.wrapperBody .grid_4 { width: 7in;}
+
+
+/* Set style for footer */
+
+#footer_inner { padding:5px 0 0 0; font-size: 0.87em; width:700px; background: #FFFFFF;}
+
+#wrapperFoot {height: 100px}
+#wrapperFootInner img {display:none;}
+
+#leftnav {display:none;}
+
+h1 {font-size: 20pt; font-family: Verdana, sans-serif;}

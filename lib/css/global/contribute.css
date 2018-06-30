@@ -1,0 +1,97 @@
+/* Master Contribute CSS Style sheet for the College of Design */
+/* Styles for all Contributers to use when formating pages */
+
+/* fonts */
+
+@font-face {
+	font-family: 'ProximaNovaRegular';
+	src: url('http;//design.umn.edu/lib/fonts/proximanova_regular_macroman/Proxima_Nova_Reg-webfont.eot');
+	 
+	src: local('Proxima Nova Regular'),
+		url('http://design.umn.edu/lib/fonts/proximanova_regular_macroman/Proxima_Nova_Reg-webfont.ttf') format('truetype');
+} 
+
+/* common */
+
+html { height: 100%; }
+body { height: 100%; width: 100%; margin: 0; background: #fff; font: normal 0.8333em/1.2em Verdana, Arial, Helvetica, sans-serif; }
+
+h1 { color: #940010; font: normal 200% Verdana, Arial, Helvetica, sans-serif; margin: 0 0 12px 0; } 
+h2 { color: #940010; font: normal 150% Verdana, Helvetica, sans-serif; margin: 0 0 12px 0; } 
+h3 { color: #000; font: normal 140% Verdana, Arial, Helvetica, sans-serif; margin: 0 0 12px 0; }	 
+h4 { color: #000; font: normal 120% Verdana, Arial, Helvetica, sans-serif; margin: 0 0 12px 0; }  
+h5 { color: #7a7a7a; font: bold 100% Verdana, Arial, Helvetica, sans-serif; margin: 0 0 12px 0; } 
+
+p { margin: 0; }
+span { }
+
+hr { border: none; border-bottom: 1px dotted #bebebe; margin: 6px 0 6px 0; }
+
+ul { list-style-image: url(/images/global/li_icon.png); }
+ol { }
+li { margin-bottom: 3px; margin-left: -20px;}
+
+.nobullets { list-style: none; }
+
+/* links */
+
+a:link { color: #940010; text-decoration: none; }
+a:visited { color: #940010; text-decoration: none; }
+a:hover { color: #940010; text-decoration: underline; }
+
+h4 a:link { color: #000; text-decoration: none; }
+h4 a:visited { color: #000; text-decoration: none; }
+h4 a:hover { color: #940010; text-decoration: none; }
+
+a img { border: none; }
+
+.divider { border-bottom: solid 1px #999; padding-bottom: 14px; margin-bottom: 10px; }
+.divider2 { border-bottom: dotted 1px #999; padding-bottom: 10px; }
+
+.indent { margin: 0 20px; }
+
+/* buttons */
+
+.button1 { padding: 5px 10px; background-color: #7a7a7a; font-size: 9pt; -moz-border-radius: 4px; border-radius: 4px; }
+a.button1:link { color: #fff; text-decoration: none }
+a.button1:visited { color: #fff; text-decoration: none }
+a.button1:hover { color: #fff; text-decoration: underline; }
+
+/* content sections */
+
+.section1 { 
+	width: 100%; 
+	border-bottom: 1px solid #7a7a7a; 
+	color: #940010; 
+	padding-bottom: 6px;
+	margin-bottom: 6px;
+	font-size: 130%; 
+	font-weight: normal; 
+}
+
+.centered { margin: 0 auto; }
+
+/* pdf icon */
+
+.PDFiconLeft { 
+	background: url(http://design.umn.edu/images/global/icon_pdf.png) no-repeat 0 0; 
+	min-width: 16px; 
+	padding-left: 22px; 
+}
+
+.PDFiconRight { 
+	background: url(http://design.umn.edu/images/global/icon_pdf.png) no-repeat right 0; 
+	min-width: 16px; 
+	padding-right: 22px; 
+}
+
+
+/* image padding options */
+
+.padding10 { padding: 10px; }
+.padding20 { padding: 20px; }
+
+/* float classes */
+
+.left { float: left; }
+.right { float: right; }

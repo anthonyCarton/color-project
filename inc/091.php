@@ -1,0 +1,1 @@
+<div class="bibEntry"><p class="bib">91. Hesselgren, Sven. HesseIgren’s Color Atlas. Stockholm, Sweden: 1952. </p><p class="annot">This general purpose color system, by the author of The Language of Architecture, features an atlas with 507 color samples on 26 charts. </p></div>
